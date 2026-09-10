@@ -1,0 +1,40 @@
+﻿{
+    "name": "Cobra Chatbot",
+    "description": "An advanced AI-powered Telegram Chatbot that learns from conversations and replies with texts and stickers.",
+    "keywords": ["telegram", "chatbot", "cobra", "ai", "pyrogram", "pyrofork"],
+    "repository": "https://github.com/Nitinyourdad/shanaya_chatbot",
+    "logo": "https://graph.org/file/a0d949ae033c97bb60c0b-238eeecbc9c32d092f.mp4",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Telegram Bot Token from @BotFather",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "MongoDB connection URL (Atlas or self-hosted)",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Telegram API ID from my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Telegram API Hash from my.telegram.org",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "Name of your chatbot",
+            "value": "Cobra Chatbot",
+            "required": false
+        },
+        "MEDIA_URL": {
+            "description": "Media thumbnail URL (video mp4 or image)",
+            "value": "https://graph.org/file/a0d949ae033c97bb60c0b-238eeecbc9c32d092f.mp4",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
