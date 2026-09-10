@@ -2,7 +2,7 @@
     "name": "Cobra Chatbot",
     "description": "An advanced AI-powered Telegram Chatbot that learns from conversations and replies with texts and stickers.",
     "keywords": ["telegram", "chatbot", "cobra", "ai", "pyrogram", "pyrofork"],
-    "repository": "https://github.com/Nitinyourdad/shanaya_chatbot",
+    "repository": "https://github.com/bhaizy/Cobra_chatbot",
     "logo": "https://graph.org/file/a0d949ae033c97bb60c0b-238eeecbc9c32d092f.mp4",
     "env": {
         "BOT_TOKEN": {
